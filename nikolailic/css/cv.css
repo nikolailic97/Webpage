@@ -1,0 +1,163 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    
+}
+
+#cv {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 64px;
+}
+
+#cv:hover {
+    color: black;
+}
+
+html {
+    overflow-y: hidden;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#nav {   
+    color: rgba(0, 0, 0, 0.5); /*  Transparancy */
+    color: white; /* Text Color */
+}
+/* Navigation Menu  */
+#horizontalMenu {
+    margin: 0;
+    padding: 0;
+    border: 2px solid white;
+    list-style: none;
+    
+    color: rgba(0, 0, 0, 0.5); /*  Transparancy */
+    color: white;   /* Text Color */
+}
+.n-items {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.n-link {
+    font-family: 'Boogaloo', cursive;
+    display: block;
+    text-decoration: none;
+    color:white;
+    padding: 15px 30px 15px 30px;
+}
+.n-link:hover {
+    color:black;
+    
+}
+
+ /* Text */
+ .text {
+    color: white;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 100px;
+}
+
+
+
+/* Small Device width - < 600px */
+@media all and (max-width: 37.5rem ) {
+#nav, #mainHeader {
+        width: 100vw;
+}
+        
+#nav {
+    height: 10vh;
+    top: 0;
+    position: fixed;
+}
+    
+#mainHeader {
+    height: 30vh;
+}
+    
+
+    
+.first {
+    margin-top: 200px;
+    font-size: 40px;
+    text-align: center;
+}
+    
+.text {
+    font-size: 40px;
+    text-align: center;
+}
+    
+#horizontalMenu {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+    
+.n-items {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+    
+.n-link { 
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+    
+}
+/* Medium Device - 601px to 992px */
+@media all and (min-width: 37.5625rem) and (max-width: 62rem) {
+#nav,  #mainHeader{
+    width: 100vw;
+}
+        
+#nav {
+    top: 0;
+    position: fixed;
+    height: 20vh;
+            
+}
+    
+.text {
+    font-size: 100px;
+}
+        
+#mainHeader {
+    height: 70vh;    
+}
+    
+
+           
+}
+
+
+/* Large Device - > 992px */
+@media all and (min-width: 62.0625rem) {
+#nav, #mainHeader {
+    width: 100vw;
+}
+    
+#nav {
+    height: 10vh;
+    top: 0;
+    position: fixed;
+}
+    
+#mainHeader {
+    height: 10vh;  
+}
+    
+
+      
+}
+

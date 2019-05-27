@@ -1,0 +1,337 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    
+}
+html {
+    overflow-x: hidden;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+/* General */
+
+
+#mainHeader {
+    padding: 0;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.5); /*  Transparancy */
+    color: white;  /* Text Color */
+    border: 1px solid white;
+    text-align: center;
+    
+
+}
+
+#nav {   
+    color: rgba(0, 0, 0, 0.5); /*  Transparancy */
+    color: white; /* Text Color */
+}
+/* Navigation Menu  */
+#horizontalMenu {
+    margin: 0;
+    padding: 0;
+    border: 2px solid white;
+    list-style: none;    
+    color: rgba(0, 0, 0, 0.5); /*  Transparancy */
+    color: white;   /* Text Color */
+}
+.n-items {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.n-link {
+    font-family: 'Boogaloo', cursive;
+    display: block;
+    text-decoration: none;
+    color:white;
+    padding: 15px 30px 15px 30px;
+}
+.n-link:hover {
+    color:black;
+    
+}
+
+.m-text {
+    font-family: 'Merriweather', serif;
+    color: white;
+    
+}
+
+.t-main {
+    font-family: 'Merriweather', serif;
+    font-size: 22px;
+    color: white;
+    
+}
+
+.txt-main {
+    font-size: 32px;
+    color: white;
+}
+
+.i-text {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    
+    
+}
+
+
+/* Left Side */
+
+#leftSide {
+    color: rgba(0, 0, 0, 0.5); /*  Transparancy */
+    color: white;    /* Text Color */
+    border: 1px solid white;
+}
+
+#picture {
+    border-radius: 200px;
+    border: 1px solid white;
+}
+
+#linkedIn {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;  
+}
+
+.icons {
+    font-size: 16px;
+}
+
+
+
+
+/* Section */
+#section {
+
+    color: rgba(0, 0, 0, 0.5); /*  Transparancy */
+    color: white;   /* Text Color */
+}
+
+
+#leftSide {
+    color: rgba(0, 0, 0, 0.5); /*  Transparancy */
+    color: white;   /* Text Color */
+}
+/* Content */
+#content {
+    color: rgba(0, 0, 0, 0.5); /*  Transparancy */
+    color: white;   /* Text Color */
+}
+
+.skillbar {
+    display: flex;
+    min-width: 150px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 120px;
+    overflow: hidden;
+}
+
+.percentage {
+    height: 14px;
+    background-color:white;
+}
+
+.remaining {
+    flex-grow: 1;
+    background-color: transparent ;
+}
+
+.p-90 {
+    flex: 0.9;
+}
+.p-10 {
+    flex: 0.1;
+}
+.p-80 {
+    flex: 0.8;
+}
+.p-20 {
+    flex: 0.2;
+}
+
+.p-60 {
+    flex: 0.6;
+}
+.p-40 {
+    flex: 0.4;
+}
+
+/* Content Tables */
+.icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+ }
+ 
+ .left-table {
+     padding-left: 20px;
+ }
+ 
+ .right-table {
+     margin-top: 5px;
+     border: 2px solid white;
+ }
+ .r-table {
+     text-align: center; 
+ }
+
+
+
+
+
+/* Small Device width - < 600px */
+@media all and (max-width: 37.5rem ) {
+#nav, #mainHeader, #section,  #leftSide, #content {
+    width: 100vw;
+    
+}
+
+#nav {
+    top: 0;
+    position: fixed;
+    height: 20vh;
+}
+
+#nav, #mainHeader, #footer {
+    width: 100vw;
+}
+    
+#nav {
+    height: 20vh;
+    top: 0;
+    position: fixed;
+}
+
+#mainHeader {
+    height: 30vh;
+}
+
+.text {
+    margin-top: 200px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#horizontalMenu {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.n-items {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.n-link { 
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+#mainHeader {
+    height: 10vh;
+    
+}
+
+#section {
+    height: 60vh;
+    display: flex;
+}
+
+#leftSide {
+    flex: 0.4;
+}
+
+#content {
+    flex: 0.6;
+}
+
+#picture {
+        min-width: 6.25rem;
+        max-width: 6.25rem;
+        min-height: 6.25rem;
+    }
+
+
+}
+
+/* Medium Device - 601px to 992px */
+@media all and (min-width: 37.5625rem) and (max-width: 62rem) {
+#nav, #mainHeader, #section , #leftSide, #content {
+        width: 100vw;       
+}
+    
+#nav {
+        height: 5vh;
+}
+    
+#mainHeader {
+        height: 10vh;
+}
+    
+
+#section {
+        min-height: 80vh;
+        display: flex;       
+}
+    
+#leftSide {
+        flex: 0.35;
+}
+    
+#content {
+        flex: 0.65;
+        padding: 1rem;
+}
+    
+
+}
+
+/* Large Device - > 992px */
+@media all and (min-width: 62.0625rem) {
+#nav, #mainHeader,  #section ,#leftSide, #content {
+    width: 100vw;
+   
+} 
+
+#nav {
+    height: 8.5vh;
+}
+
+#mainHeader {
+    height: 15vh;
+}
+
+
+
+#section {
+    
+    min-height: 66.5vh;
+    display: flex;
+    
+}
+
+#leftSide {
+    flex: 0.3;
+}
+
+#content {
+    flex: 0.7;
+    padding: 1rem;
+}
+
+}
